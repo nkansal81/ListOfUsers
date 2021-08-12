@@ -1,0 +1,65 @@
+body{
+    border:2px double rgba(255, 0, 0, 0.247);
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    background-color: aliceblue;
+}
+.box{
+    height: 15vh;
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+}
+#user-container{
+    display: inline-block;
+}
+span{
+    display: inline-block;
+    margin: 5%;
+}
+label,input{
+    display: inline-block;
+    font-size: 1.2rem;
+    /* padding: 0.5%; */
+}
+button{
+    font-size: 1.5rem;
+    border: 2px solid lightgrey;
+}
+button:hover{
+    box-shadow: 0px 0px 32px 4px lightgrey;
+}
+#prevPage,#nextPage{
+    box-shadow: 0px 0px 32px 4px grey;
+}
+#getUsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 100%;
+    flex-wrap: no-wrap;
+}
+.userNew{
+    display: flex;
+    max-height: 600px;
+    min-height: 100px;
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 40px;
+    display: block;
+    background-color: lightsalmon;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    display: inline-block;
+}

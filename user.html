@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List of users</title>
+        <link rel="stylesheet" type="text/css" href="user.css">
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <span id="user-container">
+                <label for="page">Page No</label>
+                <input type="text" id="page" value="" placeholder="Enter page">
+            </span>
+            <span>
+                <button id="button">Get Users</button>
+            </span>
+        </div>
+        
+        <div class="box">
+            <span>
+                <button id="prevPage">Previous Page</button>
+            </span>
+            <span>     
+                <button id="nextPage">Next Page</button>
+            </span>
+        </div>
+
+        <div id="getUsers">
+
+        </div>
+        
+        <script src="users.js"></script>
+    </body>
+</html>
